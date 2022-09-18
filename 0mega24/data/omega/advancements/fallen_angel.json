@@ -10,7 +10,7 @@
 		"announce_to_chat": true,
 		"hidden": false
 	},
-	"parent": "omega:*/be_original",
+	"parent": "*:*/be_original",
 	"criteria": {
 		"requierment_end": {
 			"trigger": "minecraft:player_killed_entity",
