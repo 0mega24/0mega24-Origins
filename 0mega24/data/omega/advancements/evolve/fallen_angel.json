@@ -11,7 +11,7 @@
 		"announce_to_chat": true,
 		"hidden": false
 	},
-	"parent": "omega:adventure/be_original",
+	"parent": "omega:evolve/be_original",
 	"criteria": {
 		"requierment_end": {
 			"trigger": "minecraft:player_killed_entity",
