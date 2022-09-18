@@ -3,8 +3,8 @@
 		"icon": {
 			"item": "origins:orb_of_origin"
 		},
-		"title": "Be Original",
-		"description": "",
+		"title": "Origins",
+		"description": "Play the Game the Way You Want",
 		"background": "minecraft:textures/block/black_concrete_powder.png",
 		"frame": "goal",
 		"show_toast": false,
