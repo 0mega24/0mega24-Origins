@@ -15,38 +15,53 @@
 		"requierment_end": {
 			"trigger": "minecraft:player_killed_entity",
 			"conditions": {
-				"player": {
-					"type": "minecraft:wither",
-					"location": {
-						"dimension": "minecraft:the_end"
+				"player": [
+					{
+						"condition": "minecraft:entity_properties",
+						"entity": "this",
+						"predicate": {
+							"type": "minecraft:wither",
+							"location": {
+								"dimension": "minecraft:the_end"
+							}
+						}
 					}
-				}
+				]
 			}
 		},
 		"requierment_nether": {
 			"trigger": "minecraft:player_killed_entity",
 			"conditions": {
-				"player": {
-					"type": "minecraft:wither",
-					"location": {
-						"dimension": "minecraft:the_nether"
+				"player": [
+					{
+						"condition": "minecraft:entity_properties",
+						"entity": "this",
+						"predicate": {
+							"type": "minecraft:wither",
+							"location": {
+								"dimension": "minecraft:the_nether"
+							}
+						}
 					}
-				}
+				]
 			}
 		},
 		"requierment_overworld": {
 			"trigger": "minecraft:player_killed_entity",
 			"conditions": {
-				"player": {
-					"type": "minecraft:wither",
-					"location": {
-						"dimension": "minecraft:overworld"
+				"player": [
+					{
+						"condition": "minecraft:entity_properties",
+						"entity": "this",
+						"predicate": {
+							"type": "minecraft:wither",
+							"location": {
+								"dimension": "minecraft:overworld"
+							}
+						}
 					}
-				}
+				]
 			}
 		}
-	},
-	"rewards": {
-		"experience": 50
 	}
 }
