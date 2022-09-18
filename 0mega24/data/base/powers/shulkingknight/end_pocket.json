@@ -1,0 +1,46 @@
+{
+	"type": "origins:multiple",
+	"pocket1": 
+	{
+		"type": "origins:inventory",
+		"drop_on_death": false,
+		"key": 
+		{
+			"key": "key.hotbar.1"
+		},
+		"condition": 
+		{
+			"type": "origins:power_active",
+			"power": "*:shulkingknight/end_pocket_toggle"
+		}
+	},
+	"pocket2": 
+	{
+		"type": "origins:inventory",
+		"drop_on_death": false,
+		"key": 
+		{
+			"key": "key.hotbar.2"
+		},
+		"condition": 
+		{
+			"type": "origins:power_active",
+			"power": "*:shulkingknight/end_pocket_toggle"
+		}
+	},
+	"pocket3": 
+	{
+		"type": "origins:inventory",
+		"drop_on_death": false,
+		"key": 
+		{
+			"key": "key.hotbar.3"
+		},
+		"condition": 
+		{
+			"type": "origins:power_active",
+			"power": "*:shulkingknight/end_pocket_toggle"
+		}
+	},
+	"hidden": true
+}

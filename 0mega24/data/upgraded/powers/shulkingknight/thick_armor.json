@@ -1,0 +1,8 @@
+{
+  "type": "origins:invulnerability",
+  "damage_condition": {
+    "type":  "origins:projectile"
+  },
+  "name": "No Projectile Damage",
+  "description": "Your Body is Thickly Armored, so arrows will not do any harm to you."
+}

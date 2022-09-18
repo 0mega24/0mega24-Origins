@@ -1,0 +1,53 @@
+{
+	"name": "Carnivore",
+	"description": "Your diet is restricted to meat, you can't eat vegetables.",
+	"type": "origins:prevent_item_use",
+		"item_condition": 
+		{
+			"type": "origins:and",
+			"conditions": 
+			[
+			{
+				"type": "origins:and",
+				"conditions": 
+				[
+				{
+					"type": "origins:ingredient",
+					"ingredient": 
+				{
+					"tag": "origins:meat"
+				},
+				"inverted": true
+				},
+				{
+					"type": "origins:food"
+				}
+				]
+			},
+			{
+			"type": "origins:ingredient",
+			"ingredient": 
+			{
+				"item": "minecraft:golden_apple"
+			},
+			"inverted": true
+			},
+			{
+			"type": "origins:ingredient",
+			"ingredient": 
+			{
+				"item": "minecraft:enchanted_golden_apple"
+			},
+			"inverted": true
+			},
+			{
+			"type": "origins:ingredient",
+			"ingredient": 
+			{
+			"tag": "origins:ignore_diet"
+			},
+			"inverted": true
+			}
+			]
+		}
+}

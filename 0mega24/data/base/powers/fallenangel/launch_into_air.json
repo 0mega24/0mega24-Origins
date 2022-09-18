@@ -1,0 +1,64 @@
+{
+	"name": "Gift of the Winds",
+	"description": "Every 30 seconds, you can launch yourself into the air.",
+	"type": "origins:multiple",
+	"cooldown_trigger":
+	{
+		"type": "origins:active_self",
+		"cooldown": 600,
+		"entity_action": 
+		{
+			"type": "origins:and",
+			"actions": 
+			[
+			{
+				"type": "origins:trigger_cooldown",
+				"power": "base:fallenangel/shockwave_check"
+			},
+			{
+				"type": "origins:play_sound",
+				"sound": "minecraft:entity.parrot.fly",
+				"volume": 1,
+				"pitch": 2
+			},
+			{
+				"type": "origins:execute_command",
+				"command": "particle minecraft:poof ~ ~ ~ 0.6 0.02 0.6 0.1 10"
+			}
+			]
+		},
+		"key": 
+		{
+			"key": "key.origins.primary_active"
+		}
+	},
+	"launch":
+	{
+	    "type": "origins:launch",
+		"cooldown": 600,
+		"hud_render": 
+		{
+			"sprite_location": "origins:textures/gui/community/huang/resource_bar_01.png",
+			"bar_index": 3
+		},
+		"sound": "minecraft:entity.parrot.fly",
+		"speed": 2,
+		"key": {
+			"key": "key.origins.primary_active"
+		}
+	},
+	"exhaust":
+	{
+	    "type": "origins:active_self",
+		"cooldown": 600,
+		"entity_action": 
+		{
+			"type": "origins:execute_command",
+			"command": "effect give @s minecraft:hunger 10 4"
+		},
+		"key": 
+		{
+			"key": "key.origins.primary_active"
+		}
+	}
+}

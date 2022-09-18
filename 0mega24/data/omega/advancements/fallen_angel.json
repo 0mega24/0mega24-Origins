@@ -1,0 +1,51 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:nether_star"
+		},
+		"title": "Purge of the Undead King",
+		"description": "Purge the World of the Purest of Evil",
+		"frame": "challenge",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"criteria": {
+		"requierment_end": {
+			"trigger": "minecraft:player_killed_entity",
+			"conditions": {
+				"player": {
+					"type": "minecraft:wither",
+					"location": {
+						"dimension": "minecraft:the_end"
+					}
+				}
+			}
+		},
+		"requierment_nether": {
+			"trigger": "minecraft:player_killed_entity",
+			"conditions": {
+				"player": {
+					"type": "minecraft:wither",
+					"location": {
+						"dimension": "minecraft:the_nether"
+					}
+				}
+			}
+		},
+		"requierment_overworld": {
+			"trigger": "minecraft:player_killed_entity",
+			"conditions": {
+				"player": {
+					"type": "minecraft:wither",
+					"location": {
+						"dimension": "minecraft:overworld"
+					}
+				}
+			}
+		}
+	},
+	"rewards": {
+		"experience": 50
+	}
+}

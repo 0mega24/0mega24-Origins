@@ -1,0 +1,31 @@
+{
+	"powers": [
+		"base:shulk_size",
+		"upgraded:hyper_exhaustion",
+		"upgraded:harder_shell",
+		"upgraded:thick_armor",
+		"origins:fire_immunity",
+		"base:jump",
+		"upgraded:shulk_juggernaut_toggle",
+		"upgraded:shulk_juggernaut_slowness",
+		"upgraded:shulk_juggernaut_res",
+		"upgraded:shulk_juggernaut_strength",
+		"upgraded:rage_toggle",
+		"upgraded:rage_strength",
+		"upgraded:rage_speed",
+		"upgraded:rage_blindness",
+		"origins:carnivore",
+		"upgraded:shulk_strong_arms",
+		"upgraded:shulk_strong_arms_break_speed",
+		"base:end_pocket",
+		"base:end_pocket_2",
+		"base:end_pocket_3",
+		"origins:ender_particles"
+	],
+	"icon": "minecraft:shulker_box",
+	"unchoosable": true,
+	"order": 11,
+	"impact": 3,
+	"name": "Adapted Shulking Knight",
+	"description": "You feel like a new connection has been made between you and the End after killing the dragon, evolving you into an Adapted Shulking Knight."
+}

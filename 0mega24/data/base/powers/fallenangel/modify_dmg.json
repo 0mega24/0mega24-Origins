@@ -1,0 +1,20 @@
+{
+	"type": "origins:modify_damage_taken",
+	"modifier": 
+	{
+		"operation": "multiply_base",
+		"value": 1
+	},
+	"damage_condition": 
+	{
+		"type": "origins:attacker",
+		"entity_condition": 
+		{
+			"type": "origins:entity_group",
+			"group": "undead"
+		}
+	},
+	"hidden": true,
+	"name": "Etherial Bane",
+	"description": "Undead deal double damage to you."
+}

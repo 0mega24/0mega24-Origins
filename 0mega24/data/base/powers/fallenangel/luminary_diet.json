@@ -1,0 +1,39 @@
+{
+	"name": "Lumivor",
+	"description": "As a Being of Light, They Must Consume Permenant Light Sources That do not Contain Souls",
+	"type": "origins:prevent_item_use",
+	"item_condition": 
+	{
+		"type": "origins:and",
+		"conditions": 
+		[
+		{
+			"type": "origins:food"
+		},
+		{
+		"type": "origins:ingredient",
+		"ingredient": 
+		{
+			"item": "minecraft:golden_apple"
+		},
+		"inverted": true
+		},
+		{
+		"type": "origins:ingredient",
+		"ingredient": 
+		{
+			"item": "minecraft:enchanted_golden_apple"
+		},
+		"inverted": true
+		},
+		{
+		"type": "origins:ingredient",
+		"ingredient": 
+		{
+		"tag": "origins:ignore_diet"
+		},
+		"inverted": true
+		}
+		]
+	}
+}

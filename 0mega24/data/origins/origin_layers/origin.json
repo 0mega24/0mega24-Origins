@@ -1,0 +1,18 @@
+{
+	"replace": false,
+	"order": 0,
+	"enabled": true,
+	"origins": [
+        "upgraded:adapted_fallenangel",
+        "base:fallenangel",
+		"upgraded:adapted_shulkingknight",
+		"base:shulkingknight"
+	],
+	"missing_name": "Administrator",
+	"missing_description": "you are the admin",
+	"allow_random": true,
+	"exclude_random": [
+	"origins:human"
+	],
+	"allow_random_unchoosable": false
+}

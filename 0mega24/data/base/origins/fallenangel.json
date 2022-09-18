@@ -1,0 +1,36 @@
+{
+	"powers": [
+		"base:fallenangel/launch_into_air",
+		"base:fallenangel/shockwave",
+		"base:fallenangel/dash",
+		"base:fallenangel/invisibility",
+		"base:fallenangel/invisibility_toggle",
+		"base:fallenangel/luminary_diet",
+		"base:fallenangel/luminary_eat",
+		"origins:elytra",
+		"base:fallenangel/friend_of_angels",
+		"base:fallenangel/etherial_form",
+		"base:fallenangel/healing_touch",
+		"base:fallenangel/modify_dmg",
+		"base:fallenangel/no_light",
+		"origins:more_kinetic_damage",
+		"origins:fire_immunity",
+		"base:fallenangel/angel_size",
+		"base:fallenangel/angel_size_con",
+		"base:fallenangel/light",
+		"base:reset"
+	],
+	"icon": {
+		"item": "minecraft:feather"
+	},
+	"order": 4,
+	"impact": 2,
+	"name":"Fallen Angel",
+	"description":"An Angel Fallen From Graces Must be in the Light to Live.",
+	"upgrades":
+	{
+		"condition": "minecraft:end/kill_dragon",
+		"origin": "upgraded:adapted_fallenangel",
+		"announcement": "You have evolved... Best check your origin again..."
+	}
+}

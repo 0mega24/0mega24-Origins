@@ -1,0 +1,24 @@
+{
+	"name": "Healing Touch",
+	"description": "Your Heavely Flesh can Hear Your Friends and Foes.",
+	"type": "origins:action_on_hit",
+	"bientity_action": 
+	{
+		"type": "origins:chance",
+		"action": 
+	{
+		"type": "origins:target_action",
+		"action": 
+		{
+			"type": "origins:apply_effect",
+			"effect": 
+		{
+			"effect": "minecraft:instant_health",
+			"duration": 1,
+			"amplifier": 2
+		}
+		}
+	},
+	"chance": 0.1
+	}
+}

@@ -1,0 +1,19 @@
+{
+	"type": "origins:modify_damage_dealt",
+	"modifier": {
+		"operation": "multiply_base",
+		"value": 1
+	},
+	"bientity_condition": 
+	{
+		"type": "origins:target_condition",
+		"condition": 
+		{
+			"type": "origins:entity_group",
+			"group": "undead"
+		}
+	},
+	"hidden": false,
+	"name": "Etherial Form",
+	"description": "You deal double damage to undead."
+}

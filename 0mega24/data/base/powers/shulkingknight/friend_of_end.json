@@ -1,0 +1,128 @@
+{
+	"name": "Friend of The End",
+	"description": "The Pact with The Dragon is Sealed End Mobs are Passive Now.",
+	"hidden": false,
+	"type": "origins:multiple",
+	"create_team":
+	{
+		"type": "origins:action_on_callback",
+		"execute_chosen_when_orb": true,
+		"entity_action_added":
+	{
+		"type": "origins:execute_command",
+		"permission_level": 4,
+		"command": "team add end"
+	},
+	"entity_action_removed":
+	{
+		"type": "origins:execute_command",
+		"permission_level": 4,
+		"command": "team leave @s"
+	}
+	},
+	"join_team":
+	{
+		"type": "origins:action_over_time",
+		"interval": 20,
+		"entity_action":
+		{
+			"type": "origins:and",
+			"actions": 
+			[
+			{
+				"type": "origins:execute_command",
+				"permission_level": 4,
+				"command": "team join end @s"
+			},
+			{
+				"type": "origins:execute_command",
+				"permission_level": 4,
+				"command": "team join end @e[type=ender_dragon,distance=..64]"
+			},
+			{
+				"type": "origins:execute_command",
+				"permission_level": 4,
+				"command": "team join end @e[type=enderman,distance=..64]"
+			},
+			{
+				"type": "origins:execute_command",
+				"permission_level": 4,
+				"command": "team join end @e[type=endermite,distance=..64]"
+			},
+			{
+				"type": "origins:execute_command",
+				"permission_level": 4,
+				"command": "team join end @e[type=shulker,distance=..64]"
+			},
+			{
+				"type": "origins:execute_command",
+				"permission_level": 4,
+				"command": "team join end @e[type=phantom,distance=..64]"
+			}
+			]
+		}
+	},
+	"target":
+	{
+		"type": "origins:target_action_on_hit",
+		"cooldown": 1,
+		"entity_action":
+		{
+		"type": "origins:and",
+		"actions": [
+			{
+				"type": "origins:execute_command",
+				"permission_level": 4,
+				"command": "tag @s add self"
+			},
+			{
+				"type": "origins:execute_command",
+				"permission_level": 4,
+				"command": "execute as @e[tag=aggro.init] run data modify entity @s Owner set from entity @e[tag=self,limit=1] UUID"
+			},
+			{
+				"type": "origins:execute_command",
+				"permission_level": 4,
+				"command": "tag @s remove self"
+			},
+			{
+				"type": "origins:execute_command",
+				"permission_level": 4,
+				"command": "tag @e remove aggro.init"
+			}
+			]
+		}
+	},
+	"attacker":
+	{
+		"type": "origins:attacker_action_when_hit",
+		"cooldown": 1,
+		"entity_action":
+		{
+		"type": "origins:and",
+		"actions": 
+		[
+		{
+			"type": "origins:execute_command",
+			"permission_level": 4,
+			"command": "tag @s add self"
+		},
+		{
+			"type": "origins:execute_command",
+			"permission_level": 4,
+			"command": "execute as @e[tag=aggro.init] run data modify entity @s Owner set from entity @e[tag=self,limit=1] UUID"
+		},
+		{
+			"type": "origins:execute_command",
+			"permission_level": 4,
+			"command": "tag @s remove self"
+		},
+		{
+			"type": "origins:execute_command",
+			"permission_level": 4,
+			"command": "tag @e remove aggro.init"
+		}
+		]
+		}
+	}
+}

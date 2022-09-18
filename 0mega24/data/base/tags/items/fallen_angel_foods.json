@@ -1,0 +1,10 @@
+{
+    "values": [
+        "minecraft:glowstone_dust",
+        "minecraft:glowstone",
+        "minecraft:torch",
+        "minecraft:campfire",
+        "minecraft:lantern",
+        "minecraft:sea_lantern"
+    ]
+}

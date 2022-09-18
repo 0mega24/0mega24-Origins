@@ -1,0 +1,54 @@
+{
+	"type": "origins:multiple",
+	"darkspeed": 
+	{
+		"type": "origins:conditioned_attribute",
+		"modifier": 
+		{
+			"attribute": "minecraft:generic.movement_speed",
+			"operation": "addition",
+			"value": -0.01
+		},
+		"condition": 
+		{
+			"type": "origins:brightness",
+			"comparison": "<",
+			"compare_to": 0.2
+		}
+	},
+	"darkattack": 
+	{
+	"type": "origins:conditioned_attribute",
+	"modifier": 
+	{
+		"attribute": "minecraft:generic.attack_damage",
+		"operation": "addition",
+		"value": -2
+	},
+	"condition": 
+	{
+		"type": "origins:brightness",
+		"comparison": "<",
+		"compare_to": 0.2
+	}
+	},
+	"dayspeed": 
+	{
+		"type": "origins:conditioned_attribute",
+	"modifier": 
+	{
+		"attribute": "minecraft:generic.movement_speed",
+		"operation": "addition",
+		"value": 0.01
+	},
+	"condition": 
+	{
+		"type": "origins:brightness",
+		"comparison": ">",
+		"compare_to": 0.2
+	}
+	},
+	"name": "No Light",
+	"description": "You can't stand being without the light for too long. If you are not in a well-lit area when night has fallen, or if you are in an unlit cave during the day, you are slower and weaker.",
+	"hidden": false
+}

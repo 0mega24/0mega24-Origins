@@ -1,0 +1,11 @@
+{
+	"type": "origins:toggle",
+	"name": "End Pocket",
+	"description": "A Perosnal Chest Inventory. Toggle On then use hotbar 1,2,3 to open chests.",
+	"key": 
+	{
+		"continuous": false,
+		"key": "key.origins.ternary_active"
+	},
+	"active_by_default": true
+}

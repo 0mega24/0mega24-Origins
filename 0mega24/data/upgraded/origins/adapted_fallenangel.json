@@ -1,0 +1,27 @@
+{
+	"powers": [
+		"base:fallenangel/launch_into_air",
+		"base:fallenangel/shockwave",
+		"base:fallenangel/dash",
+		"base:fallenangel/invisibility",
+		"base:fallenangel/invisibility_toggle",
+		"base:fallenangel/luminary_diet",
+		"base:fallenangel/luminary_eat",
+		"origins:more_exhaustion",
+		"origins:elytra",
+		"base:fallenangel/friend_of_angels",
+		"base:fallenangel/etherial_form",
+		"base:fallenangel/healing_touch",
+		"base:fallenangel/no_light",
+		"origins:fire_immunity",
+		"upgraded:fallenangel/angel_size",
+		"upgraded:fallenangel/angel_size_con",
+		"base:fallenangel/light"
+	],
+	"icon": "minecraft:feather",
+	"unchoosable": true,
+	"order": 11,
+	"impact": 3,
+	"name": "Adapted Fallen Angel",
+	"description": "After Killing the Demonic Dragon you are Redeemed and Remade, evolving you into an True Angel."
+}

@@ -1,0 +1,34 @@
+{
+	"powers": [
+		"base:shulkingknight/juggernaut_toggle",
+		"base:shulkingknight/juggernaut",
+		"base:shulkingknight/end_pocket_toggle",
+		"base:shulkingknight/end_pocket",
+		"base:shulkingknight/shulk_diet",
+		"origins:more_exhaustion",
+		"origins:natural_armor",
+		"base:shulkingknight/friend_of_end",
+		"base:shulkingknight/shulking_touch",
+		"base:shulkingknight/strong_arms",
+		"base:shulkingknight/strong_arms_break_speed",
+		"origins:fire_immunity",
+		"base:shulkingknight/effect_immunity",
+		"base:shulkingknight/shulk_size",
+		"base:shulkingknight/shulk_size_con",
+		"origins:ender_particles",
+		"base:reset"
+	],
+	"icon": {
+		"item": "minecraft:shulker_box"
+	},
+	"order": 4,
+	"impact": 2,
+	"name":"Shulking Knight",
+	"description":"Related to Shulkers, the Armor of the Shulking Knight are Outfitted with a Protective Shell-Like Armor.",
+	"upgrades":
+	{
+        "condition": "minecraft:end/kill_dragon",
+        "origin": "upgraded:adapted_shulkingknight",
+        "announcement": "You have evolved... Best check your origin again..."
+	}
+}

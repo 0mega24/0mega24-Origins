@@ -1,0 +1,33 @@
+{
+	"name": "Invisibility",
+	"description": "You can Hide in the Light of Day.",
+	"type": "origins:toggle",
+	"key": 
+	{
+		"key": "key.origins.ternary_active",
+		"continuous": false
+	},
+	"retain_state": false,
+	"condition": 
+	{
+	"type": "origins:and",
+	"conditions": 
+	[
+	{
+		"type": "origins:time_of_day",
+		"comparison": ">=",
+		"compare_to": 0
+	},
+	{
+		"type": "origins:time_of_day",
+		"comparison": "<=",
+		"compare_to": 12000
+	},
+	{
+		"type": "origins:brightness",
+		"comparison": ">",
+		"compare_to": 0.2
+	}
+	]
+	}
+}
