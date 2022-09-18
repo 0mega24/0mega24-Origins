@@ -29,7 +29,7 @@
 	"description":"An Angel Fallen From Graces Must be in the Light to Live.",
 	"upgrades":
 	{
-		"condition": "minecraft:end/kill_dragon",
+		"condition": "omega:evolve/fallen_angel",
 		"origin": "upgraded:adapted_fallenangel",
 		"announcement": "You have evolved... Best check your origin again..."
 	}
