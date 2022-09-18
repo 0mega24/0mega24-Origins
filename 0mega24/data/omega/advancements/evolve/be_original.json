@@ -6,7 +6,6 @@
 		"title": "Be Original",
 		"description": ""
 	},
-	"parent": "minecraft:adventure/root",
 	"criteria": {
 		"requirement": {
 			"trigger": "minecraft:location",
