@@ -10,15 +10,5 @@
 		"show_toast": false,
 		"announce_to_chat": false,
 		"hidden": false
-	},
-	"criteria": {
-		"requirement": {
-			"trigger": "minecraft:location",
-			"conditions": {
-				"location": {
-					"dimension": "minecraft:overworld"
-				}
-			}
-		}
 	}
 }
