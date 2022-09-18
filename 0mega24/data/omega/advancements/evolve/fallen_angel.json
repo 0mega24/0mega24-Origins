@@ -5,7 +5,6 @@
 		},
 		"title": "Purge of the Undead King",
 		"description": "Purge the World of the Purest of Evil",
-		"background": "minecraft:textures/blocks/black_concrete_powder.png",
 		"frame": "challenge",
 		"show_toast": true,
 		"announce_to_chat": true,
