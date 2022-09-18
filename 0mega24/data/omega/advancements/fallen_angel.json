@@ -10,7 +10,7 @@
 		"announce_to_chat": true,
 		"hidden": false
 	},
-	"parent": "minecraft:adventure/root",
+	"parent": "minecraft:adventure/be_original",
 	"criteria": {
 		"requierment_end": {
 			"trigger": "minecraft:player_killed_entity",
