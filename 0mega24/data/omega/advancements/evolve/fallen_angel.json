@@ -12,55 +12,37 @@
 	},
 	"parent": "omega:evolve/be_original",
 	"criteria": {
-		"requierment_end": {
+		"wither_overworld": {
 			"trigger": "minecraft:player_killed_entity",
 			"conditions": {
-				"player": [
-					{
-						"condition": "minecraft:entity_properties",
-						"entity": "this",
-						"predicate": {
-							"type": "minecraft:wither",
-							"location": {
-								"dimension": "minecraft:the_end"
-							}
-						}
+				"entity": {
+					"type": "minecraft:wither",
+					"location": {
+						"dimension": "minecraft:overworld"
 					}
-				]
+				}
 			}
 		},
-		"requierment_nether": {
+		"wither_nether": {
 			"trigger": "minecraft:player_killed_entity",
 			"conditions": {
-				"player": [
-					{
-						"condition": "minecraft:entity_properties",
-						"entity": "this",
-						"predicate": {
-							"type": "minecraft:wither",
-							"location": {
-								"dimension": "minecraft:the_nether"
-							}
-						}
+				"entity": {
+					"type": "minecraft:wither",
+					"location": {
+						"dimension": "minecraft:the_nether"
 					}
-				]
+				}
 			}
 		},
-		"requierment_overworld": {
+		"wither_end": {
 			"trigger": "minecraft:player_killed_entity",
 			"conditions": {
-				"player": [
-					{
-						"condition": "minecraft:entity_properties",
-						"entity": "this",
-						"predicate": {
-							"type": "minecraft:wither",
-							"location": {
-								"dimension": "minecraft:overworld"
-							}
-						}
+				"entity": {
+					"type": "minecraft:wither",
+					"location": {
+						"dimension": "minecraft:the_end"
 					}
-				]
+				}
 			}
 		}
 	}
