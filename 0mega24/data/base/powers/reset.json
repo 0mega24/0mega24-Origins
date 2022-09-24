@@ -3,7 +3,7 @@
 	"entity_action": 
 	{
 		"type": "origins:execute_command",
-		"command": "advancement revoke @s only minecraft:end/kill_dragon",
+		"command": "advancement revoke @s from omega:evolve/be_original",
 		"permission_level": 4
 	},
 	"cooldown": 20,
