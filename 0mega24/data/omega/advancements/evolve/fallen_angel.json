@@ -1,6 +1,8 @@
 {
-	"display": {
-		"icon": {
+	"display": 
+	{
+		"icon": 
+		{
 			"item": "minecraft:nether_star"
 		},
 		"title": "Purge of the Undead King",
@@ -11,39 +13,52 @@
 		"hidden": false
 	},
 	"parent": "omega:evolve/be_original",
-	"criteria": {
-		"wither_overworld": {
-			"trigger": "minecraft:player_killed_entity",
-			"conditions": {
-				"entity": {
-					"type": "minecraft:wither",
-					"location": {
-						"dimension": "minecraft:overworld"
-					}
-				}
+	"criteria": 
+	{
+	"wither_overworld": 
+	{
+		"trigger": "minecraft:player_killed_entity",
+		"conditions": 
+		{
+		"entity": 
+		{
+			"type": "minecraft:wither",
+			"location": 
+			{
+				"dimension": "minecraft:overworld"
 			}
+		}
+		}
 		},
-		"wither_nether": {
-			"trigger": "minecraft:player_killed_entity",
-			"conditions": {
-				"entity": {
-					"type": "minecraft:wither",
-					"location": {
-						"dimension": "minecraft:the_nether"
-					}
-				}
+		"wither_nether": 
+		{
+		"trigger": "minecraft:player_killed_entity",
+		"conditions": 
+		{
+		"entity": 
+		{
+			"type": "minecraft:wither",
+			"location": 
+			{
+				"dimension": "minecraft:the_nether"
 			}
+		}
+		}
 		},
-		"wither_end": {
-			"trigger": "minecraft:player_killed_entity",
-			"conditions": {
-				"entity": {
-					"type": "minecraft:wither",
-					"location": {
-						"dimension": "minecraft:the_end"
-					}
-				}
+		"wither_end": 
+		{
+		"trigger": "minecraft:player_killed_entity",
+		"conditions": 
+		{
+		"entity": 
+		{
+			"type": "minecraft:wither",
+			"location": 
+			{
+				"dimension": "minecraft:the_end"
 			}
+		}
+		}
 		}
 	}
 }
