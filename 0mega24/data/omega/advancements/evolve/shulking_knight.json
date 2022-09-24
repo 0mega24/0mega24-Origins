@@ -1,59 +1,77 @@
 {
-	"display": {
-		"icon": {
-			"item": "minecraft:shulker_box"
-		},
-		"title": "Purge of the Overworld",
-		"description": "Purge the Overworld of its Impurities",
-		"show_toast": true,
-		"announce_to_chat": true,
-		"hidden": false
+	"display": 
+    {
+	"icon":
+     {
+		"item": "minecraft:shulker_box"
+	},
+	"title": "Purge of the Overworld",
+	"description": "Purge the Overworld of its Impurities",
+	"show_toast": true,
+	"announce_to_chat": true,
+	"hidden": false
 	},
 	"parent": "omega:evolve/be_original",
-	"criteria": {
-		"player_kill": {
-			"trigger": "minecraft:player_killed_entity",
-			"conditions": {
-				"entity": {
-					"type": "minecraft:player",
-					"location": {
-						"dimension": "minecraft:overworld"
-					}
-				}
+	"criteria": 
+    {
+	    "player_kill": 
+        {
+		"trigger": "minecraft:player_killed_entity",
+		"conditions":
+        {
+			"entity": 
+            {
+			"type": "minecraft:player",
+			"location": 
+            {
+			    "dimension": "minecraft:overworld"
+			}
+			}
 			}
 		},
-		"zombie_kill": {
-			"trigger": "minecraft:player_killed_entity",
-			"conditions": {
-				"entity": {
-					"type": "minecraft:zombie",
-					"location": {
-						"dimension": "minecraft:overworld"
-					}
-				}
-			}
-		},
-		"skeleton_kill": {
-			"trigger": "minecraft:player_killed_entity",
-			"conditions": {
-				"entity": {
-					"type": "minecraft:skeleton",
-					"location": {
-						"dimension": "minecraft:overworld"
-					}
-				}
-			}
-		},
-		"enderman_kill": {
-			"trigger": "minecraft:player_killed_entity",
-			"conditions": {
-				"entity": {
-					"type": "minecraft:enderman",
-					"location": {
-						"dimension": "minecraft:overworld"
-					}
+		"zombie_kill": 
+        {
+		"trigger": "minecraft:player_killed_entity",
+		"conditions":
+        {
+			"entity": 
+            {
+				"type": "minecraft:zombie",
+				"location":
+                 {
+					"dimension": "minecraft:overworld"
 				}
 			}
 		}
+		},
+		"skeleton_kill": 
+        {
+		"trigger": "minecraft:player_killed_entity",
+		"conditions": 
+        {
+			"entity": 
+            {
+				"type": "minecraft:skeleton",
+				"location": 
+                {
+					"dimension": "minecraft:overworld"
+				}
+			}
+		}
+		},
+		"enderman_kill": {
+		"trigger": "minecraft:player_killed_entity",
+		"conditions": 
+        {
+			"entity": 
+            {
+				"type": "minecraft:enderman",
+				"location": 
+                {
+					"dimension": "minecraft:overworld"
+			    }
+			}
+		}
+	}
 	}
 }
