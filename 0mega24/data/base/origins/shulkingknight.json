@@ -27,7 +27,7 @@
 	"description":"Related to Shulkers, the Armor of the Shulking Knight are Outfitted with a Protective Shell-Like Armor.",
 	"upgrades":
 	{
-        "condition": "minecraft:end/kill_dragon",
+        "condition": "omega:evolve/shulking_knight",
         "origin": "upgraded:adapted_shulkingknight",
         "announcement": "You have evolved... Best check your origin again..."
 	}
