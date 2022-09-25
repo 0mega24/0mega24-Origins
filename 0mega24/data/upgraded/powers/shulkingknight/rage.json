@@ -17,7 +17,7 @@
 		"condition": 
 		{
 			"type": "origins:power_active",
-			"power": "*:adapted_shulkingknight/rage_toggle"
+			"power": "*:shulkingknight/rage_toggle"
 		}
 	},
 	"speed": 
@@ -38,7 +38,7 @@
 		"condition": 
 		{
 			"type": "origins:power_active",
-			"power": "*:adapted_shulkingknight/rage_toggle"
+			"power": "*:shulkingknight/rage_toggle"
 		}
 	},
     "strength": 
@@ -59,7 +59,7 @@
 		"condition": 
 		{
 			"type": "origins:power_active",
-			"power": "*:adapted_shulkingknight/rage_toggle"
+			"power": "*:shulkingknight/rage_toggle"
 		}
 	},
 	"hidden": true
