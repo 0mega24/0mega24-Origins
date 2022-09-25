@@ -13,7 +13,7 @@
 	"modifier": 
 	{
 		"name": "Strong Arms stone break speed bonus",
-		"value": 0.12,
+		"value": 0.24,
 		"operation": "addition"
 	},
 	"hidden": true
