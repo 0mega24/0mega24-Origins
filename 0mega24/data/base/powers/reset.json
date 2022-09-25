@@ -1,10 +1,10 @@
 {
-	"type": "origins:self_action_on_hit",
-	"entity_action": 
+	"type": "origins:action_on_callback",
+	"entity_action_chosen": 
 	{
-		"type": "origins:execute_command",
-		"command": "advancement revoke @s from omega:evolve/be_original",
-		"permission_level": 4
+	"type": "origins:execute_command",
+	"command": "/advancement revoke @s from omega:evolve/be_original",
+	"permission_level": 4
 	},
 	"cooldown": 20,
 	"hidden": true
