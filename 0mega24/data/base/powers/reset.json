@@ -6,6 +6,12 @@
 	"command": "/advancement revoke @s from omega:evolve/be_original",
 	"permission_level": 4
 	},
+	"entity_action_removed": 
+	{
+		"type": "origins:execute_command",
+		"command": "/advancement revoke @s from omega:evolve/be_original",
+		"permission_level": 4
+	},
 	"cooldown": 20,
 	"hidden": true
   }
