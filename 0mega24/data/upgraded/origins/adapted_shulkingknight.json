@@ -1,5 +1,25 @@
 {
 	"powers": [
+		"upgraded:adapted_shulkingknight/rage_toggle",
+		"upgraded:adapted_shulkingknight/rage",
+		"base:shulkingknight/juggernaut_toggle",
+		"base:shulkingknight/juggernaut",
+		"base:shulkingknight/end_pocket_toggle",
+		"base:shulkingknight/end_pocket",
+		"base:shulkingknight/shulk_diet",
+
+		"origins:more_exhaustion",
+		"upgraded:adapted_shulkingknight/harder_shell",
+
+		"base:shulkingknight/friend_of_end",
+		"base:shulkingknight/shulking_touch",
+
+		"origins:fire_immunity",
+		"base:shulkingknight/effect_immunity",
+		"base:shulkingknight/shulk_size",
+		"base:shulkingknight/shulk_size_con",
+		"origins:ender_particles"
+
 		"base:shulk_size",
 		"upgraded:hyper_exhaustion",
 		"upgraded:harder_shell",
