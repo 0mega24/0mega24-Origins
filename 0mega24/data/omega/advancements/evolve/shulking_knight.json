@@ -72,6 +72,20 @@
 			    }
 			}
 		}
-	}
+		},
+		"wither_kill": {
+		"trigger": "minecraft:player_killed_entity",
+		"conditions":
+		{
+			"entity": 
+			{
+				"type": "minecraft:wither",
+				"location": 
+				{
+					"dimension": "minecraft:overworld"
+				}
+			}
+		}
+		}
 	}
 }
