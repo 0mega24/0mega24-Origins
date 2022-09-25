@@ -7,26 +7,16 @@
 		"base:shulkingknight/end_pocket_toggle",
 		"base:shulkingknight/end_pocket",
 		"base:shulkingknight/shulk_diet",
-
-		"origins:more_exhaustion",
+		"upgraded:adapted_shulkingknight/hyper_exhaustion",
 		"upgraded:adapted_shulkingknight/harder_shell",
-
 		"base:shulkingknight/friend_of_end",
 		"base:shulkingknight/shulking_touch",
-
+		"upgraded:adapted_shulkingknight/shulk_strong_arms",
+		"upgraded:adapted_shulkingknight/shulk_strong_arms_break_speed",
 		"origins:fire_immunity",
 		"base:shulkingknight/effect_immunity",
 		"base:shulkingknight/shulk_size",
 		"base:shulkingknight/shulk_size_con",
-		"origins:ender_particles"
-
-		"base:shulk_size",
-		"upgraded:hyper_exhaustion",
-		"upgraded:harder_shell",
-		"upgraded:thick_armor",
-		"origins:fire_immunity",
-		"upgraded:shulk_strong_arms",
-		"upgraded:shulk_strong_arms_break_speed",
 		"origins:ender_particles"
 	],
 	"icon": "minecraft:shulker_box",
