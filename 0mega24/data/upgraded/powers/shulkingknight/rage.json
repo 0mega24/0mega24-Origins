@@ -4,7 +4,7 @@
 	{
 		"type": "origins:stacking_status_effect",
 		"min_stacks": "0",
-		"max_stacks": "1",
+		"max_stacks": "2",
 		"duration_per_stack": "20",
 		"effect": 
 		{
@@ -24,7 +24,7 @@
 	{
 		"type": "origins:stacking_status_effect",
 		"min_stacks": "0",
-		"max_stacks": "1",
+		"max_stacks": "2",
 		"duration_per_stack": "20",
 		"effect": 
 		{
@@ -45,7 +45,7 @@
 	{
 		"type": "origins:stacking_status_effect",
 		"min_stacks": "0",
-		"max_stacks": "1",
+		"max_stacks": "2",
 		"duration_per_stack": "20",
 		"effect": 
 		{
