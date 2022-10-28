@@ -26,7 +26,7 @@
 	"order": 4,
 	"impact": 2,
 	"name":"Fallen Angel",
-	"description":"An Angel Fallen From Graces Must be in the Light to Live.",
+	"description":"An Angel Fallen From Graces Must be in the Light to Survive.",
 	"upgrades":
 	{
 		"condition": "omega:evolve/fallen_angel",
